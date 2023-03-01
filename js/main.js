@@ -20,5 +20,7 @@ while (prodottoLista < listaDom.length) {
             ${listaDom[prodottoLista]}             
         </li>
     `
+    console.log(listaDom[prodottoLista]);
+
     prodottoLista++;
 };
