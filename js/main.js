@@ -16,9 +16,9 @@ while (prodottoLista < listaDom.length) {
     
     internoLista.innerHTML += 
     `
-        <li>
+        <li class="list_element">
             ${listaDom[prodottoLista]}             
         </li>
     `
     prodottoLista++;
-}
+};
